@@ -1,4 +1,4 @@
-# Polaris Examples                                                                                                                                                                                                                       
+# Polaris Workflow Examples                                                                                                                                                                                                                       
                                                                                                                                                                                                                                          
 Live, executable examples demonstrating Polaris integration with CI/CD pipelines.                                                                                                                                                        
                                                                                                                                                                                                                                          
