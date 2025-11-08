@@ -21,4 +21,4 @@ Live, executable samples demonstrating Polaris integration with CI/CD pipelines.
                                                                                                                                                                                                                                                                                                                                                                                                       
 ## Helpful Links                                                                                                                                                                                                                          
                 
-[Using the Black Duck Security Scan Action with Polaris](https://documentation.blackduck.com/bundle/bridge/page/documentation/c_github-polaris.html).
+[Using the Black Duck Security Scan Action with Polaris](https://documentation.blackduck.com/bundle/bridge/page/documentation/c_github-polaris.html)
