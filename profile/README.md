@@ -1,9 +1,13 @@
 # Polaris Workflow Samples                                                                                                                                                                                                                       
-                                                                                                                                                                                                                                         
+## Table of Contents
+- [Overview](#overview)
+- [Workflows using Black Duck Security Scan Action](#workflows-using-black-duck-security-scan-action)
+- [Workflows using Bridge CLI](#workflows-using-bridge-cli)
+- [Helpful Links](#helpful-links)                                                                                                                                                                                                                                         
+## Overview
 Live, executable samples demonstrating Polaris scans with CI/CD pipelines.                                                                                                                                                        
-                                                                                                                                                                                                                                         
-## Workflows                                                                                                                                                                                                                    
-                                                                                                                                                                                                                                         
+                  
+## Workflows using Black Duck Security Scan Action                                                                                                                                                                                                                                                                                                                                                                                                                                                            
 | How To? | Details | Workflow File | Scan Results |                                                                                                                                                                          
 |---------|-------------|---------------|---------------------|                                                                                                                                                                          
 | [**Scan repository in an environment where build is not an option**](https://github.com/polaris-workflow-samples/buildless-scan) | This option is less accurate and should be used when you can’t build your repository | [Workflow](https://github.com/polaris-workflow-samples/buildless-scan/blob/main/.github/workflows/nodejs-npm.yml) | [Results](https://polaris-workflow-samples.github.io/buildless-scan/) |                                                                                                                                                              
