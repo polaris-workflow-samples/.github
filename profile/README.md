@@ -1,15 +1,15 @@
 # Polaris Workflow Samples                                                                                                                                                                                                                       
 ## Table of Contents
 - [Overview](#overview)
-- [Workflows using Black Duck Security Scan Action](#workflows-using-black-duck-security-scan-action)
-- [Workflows using Bridge CLI](#workflows-using-bridge-cli)
-- [Helpful Links](#helpful-links)                                                                                                                                                                                                                                         
+- [Workflow Samples using Action](#workflow-samples-using-action)
+- [Workflow Samples using CLI](#workflow-samples-using-cli)
+- [Documentation](#documentation)                                                                                                                                                                                                                                        
 ## Overview
 Live, executable samples demonstrating Polaris scans with CI/CD pipelines.                                                                                                                                                        
                   
-## Workflows using Black Duck Security Scan Action                                                                                                                                                                                                                                                                                                                                                                                                                                                            
-| How To? | Details | Workflow File | Scan Results |                                                                                                                                                                          
-|---------|-------------|---------------|---------------------|                                                                                                                                                                          
+## Workflow Samples using Action
+| How To? | Details | Workflow  | Results  | Status |
+|---------|---------|---------------|--------------|--------------|                                                                                                                                                                           
 | [**Scan repository in an environment where build is not an option**](https://github.com/polaris-workflow-samples/buildless-scan) | This option is less accurate and should be used when you can’t build your repository | [Workflow](https://github.com/polaris-workflow-samples/buildless-scan/blob/main/.github/workflows/nodejs-npm.yml) | [Results](https://polaris-workflow-samples.github.io/buildless-scan/) |                                                                                                                                                              
 | [**Scan repository with build as a pre-step (Recommended)**](https://github.com/polaris-workflow-samples/basic-scan) | This is the recommended way to scan. A pre build step guarantees all the compiled code and artifacts for SAST issues and SCA dependencies (including transitive) are scanned for comprehensive vulnerability detection | [Workflow](https://github.com/polaris-workflow-samples/basic-scan/blob/main/.github/workflows/nodejs-npm.yml) | [Results](https://polaris-workflow-samples.github.io/basic-scan/) |                                                                                                                                                                      
 | [**Add comments to PRs for new vulnerable issues/components introduced through developer changes**](https://github.com/polaris-workflow-samples/pr-comments) | For each new vulnerable issue or component introduced by the developer's changes, this integration adds a comment to the pull request. PR comments enables the users to quickly view, understand, and fix the issue before merging | [Workflow](https://github.com/polaris-workflow-samples/pr-comments/blob/main/.github/workflows/nodejs-npm.yml) | [Results](https://polaris-workflow-samples.github.io/pr-comments/) |                                                                                                                                                                     
@@ -25,11 +25,11 @@ Live, executable samples demonstrating Polaris scans with CI/CD pipelines.
 | [**Detailed workflow with full configurations for advanced users**](https://github.com/polaris-workflow-samples/detailed-example) | Comprehensive workflow demonstrating all Polaris capabilities with full configurations. Ideal for advanced users requiring granular control and customization capabilities | [Workflow](https://github.com/polaris-workflow-samples/detailed-example/blob/main/.github/workflows/nodejs-npm.yml) | [Results](https://polaris-workflow-samples.github.io/detailed-example/) |
                                                                                                                                                 
                                                                                                                                                                                                                        
-## Workflows using Bridge CLI
-| How To? | Details | Workflow File | Scan Results |
-|---------|---------|---------------|--------------|
+## Workflow Samples using CLI
+| How To? | Details | Workflow  | Results  | Status |
+|---------|---------|---------------|--------------|--------------|
 | [**Scan repository with build as a pre-step (Recommended)**](https://github.com/polaris-workflow-samples/bridge-cli) | This is the recommended way to scan. A pre build step guarantees all the compiled code and artifacts for SAST issues and SCA dependencies (including transitive) are scanned for comprehensive vulnerability detection | [Workflow](https://github.com/polaris-workflow-samples/bridge-cli/blob/main/.github/workflows/nodes-npm.yml) | [Results](https://polaris-workflow-samples.github.io/bridge-cli/) |                                                                                                                                                                               
 
-## Helpful Links                                                                                                                                                                                                                          
+## Documentation                                                                                                                                                                                                                          
                 
 [Using the Black Duck Security Scan Action with Polaris](https://documentation.blackduck.com/bundle/bridge/page/documentation/c_github-polaris.html)
