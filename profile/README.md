@@ -5,7 +5,7 @@
 - [Workflow Samples using CLI](#workflow-samples-using-cli)
 - [Documentation](#documentation)                                                                                                                                                                                                                                        
 ## Overview
-Live, executable samples demonstrating Polaris scans with CI/CD pipelines                                                                                                                                                        
+Live, executable samples using the Black Duck Security Scan Action with Polaris                                                                                                                                                      
                   
 ## Workflow Samples using Action
 | How To? | Details | Workflow  | Results  | Status |
